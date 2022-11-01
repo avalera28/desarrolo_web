@@ -1,6 +1,3 @@
-
-
-
 .menu-container {
   padding: 100px;
   display: flex;
@@ -12,8 +9,12 @@
   color: #E0E1DC;
 }
 
+.footer-list {
+  list-style-type: none
+}
+
 .menu {
-  border: 0px solid #0E1B2B ;
+  border: 0px solid #0E1B2B;
   color: #0E1B2B;
   width: 70%;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -22,26 +23,35 @@
 
 }
 
+.button-icon {
+  transition: 0.3s;
+}
+
+.button-icon:hover {
+  transform: translate(20px, 0px)
+}
+
 
 .logo {
   width: 25%;
+  height: auto;
 }
 
 .imagen-principal {
-  width: 30%;
+  width: 60%;
 }
 
 .color {
-  background-color:#0E1B2B ;
+  background-color: #0E1B2B;
 }
 
-.secundary-color{
+.secundary-color {
   background-color: #788DAA;
 }
 
 .primary-color {
 
-  color: #E0E1DC ;
+  color: #E0E1DC;
 }
 
 .primary-back-color {
@@ -50,51 +60,86 @@
 
 
 /*Proyecto*/
-.project-container{
+.project-container {
   display: flex;
   justify-content: center;
 }
 
-.project{
+.project {
   font-family: 'Montserrat Alternates', sans-serif;
   display: flex;
   justify-content: center;
 }
+
 /*Fin Proyecto*/
 
 .color {
-    background-color:#0E1B2B ;
+  background-color: #0E1B2B;
 }
 
-.secundary-color{
-    background-color: #788DAA;
+.secundary-color {
+  background-color: #788DAA;
 }
 
 .primary-color {
 
-    color: #E0E1DC ;
+  color: #E0E1DC;
 }
 
 .primary-back-color {
-    background-color: #E0E1DC;
+  background-color: #E0E1DC;
 }
 
 .boxinline {
-    background-color: #788DAA;
-      display:inline-block;
-      padding-top: 10px;
-      padding-right: 30px;
-      padding-bottom: 40px;
-      padding-left: 4em;
-    }
-    
-    .box {
-      padding-top: 0;
-      padding-right: 10px;
-      padding-bottom: 40px;
-      padding-left: 600px;
-      justify-content: right;    }
-    
-    .container {
-      padding: 20px;
-    }
+  background-color: rgb(120, 141, 170);
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 4em;
+}
+
+.box {
+  padding-top: 0;
+  padding-right: 10px;
+  padding-bottom: 40px;
+  padding-left: 600px;
+  justify-content: right;
+}
+
+.container-projects {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #788DAA;
+}
+
+.container-main {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+  background-color: #788DAA;
+}
+
+.box-centered {
+  background-color: #788DAA;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.image-fadeIn {
+  animation: fadeIn 3s;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(120, 141, 170, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(120, 141, 170);
+} 
