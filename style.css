@@ -1,0 +1,100 @@
+
+
+
+.menu-container {
+  padding: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-decoration {
+  text-decoration: none;
+  color: #E0E1DC;
+}
+
+.menu {
+  border: 0px solid #0E1B2B ;
+  color: #0E1B2B;
+  width: 70%;
+  font-family: 'Montserrat Alternates', sans-serif;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.logo {
+  width: 25%;
+}
+
+.imagen-principal {
+  width: 30%;
+}
+
+.color {
+  background-color:#0E1B2B ;
+}
+
+.secundary-color{
+  background-color: #788DAA;
+}
+
+.primary-color {
+
+  color: #E0E1DC ;
+}
+
+.primary-back-color {
+  background-color: #E0E1DC;
+}
+
+
+/*Proyecto*/
+.project-container{
+  display: flex;
+  justify-content: center;
+}
+
+.project{
+  font-family: 'Montserrat Alternates', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+/*Fin Proyecto*/
+
+.color {
+    background-color:#0E1B2B ;
+}
+
+.secundary-color{
+    background-color: #788DAA;
+}
+
+.primary-color {
+
+    color: #E0E1DC ;
+}
+
+.primary-back-color {
+    background-color: #E0E1DC;
+}
+
+.boxinline {
+    background-color: #788DAA;
+      display:inline-block;
+      padding-top: 10px;
+      padding-right: 30px;
+      padding-bottom: 40px;
+      padding-left: 4em;
+    }
+    
+    .box {
+      padding-top: 0;
+      padding-right: 10px;
+      padding-bottom: 40px;
+      padding-left: 600px;
+      justify-content: right;    }
+    
+    .container {
+      padding: 20px;
+    }
