@@ -1,0 +1,34 @@
+/*Index*/
+/*
+.imagen-principal {
+  width: 60%;
+}
+
+
+.container-main {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+  background-color: #788DAA;
+}
+*/
+/*Fin index*/
+
+section {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+  background-color: #788DAA;
+
+  div {
+    div {
+      div {
+        img {
+          width: 20%;
+        }
+      }
+    }
+  }
+}
