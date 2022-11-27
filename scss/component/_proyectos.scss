@@ -1,0 +1,55 @@
+  /*Proyectos*/
+  /*
+
+
+  .project-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .project {
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-fadeIn {
+    animation: fadeIn 3s;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .container-projects {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #788DAA;
+  }
+  */
+  /*Fin Proyectos*/
+
+
+
+  section {
+    
+      div {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #788DAA;
+        div {
+            img {
+                animation: fadeIn 3s;
+                @keyframes fadeIn {
+                    0% { opacity: 0; }
+                    100% { opacity: 1; }
+                }
+            }
+        }
+      }
+  }

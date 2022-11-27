@@ -1,0 +1,243 @@
+.image-fadeIn {
+  animation: fadeIn 3s;
+}
+
+.color {
+  background-color: #0E1B2B;
+}
+
+.primary-color {
+  color: #E0E1DC;
+}
+
+.secundary-color {
+  background-color: #788DAA;
+}
+
+/*Contacto */
+/*
+.primary-back-color {
+  background-color: #E0E1DC;
+}
+
+.container-contacto {
+  display: flex;
+  padding: 20px;
+  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #788DAA;
+}
+*/
+/*Fin contacto*/
+section {
+  background-color: #E0E1DC;
+}
+section div .container-contacto {
+  display: flex;
+  padding: 20px;
+  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #788DAA;
+}
+
+/*Footer*/
+/*
+.primary-color {
+    color: #E0E1DC;
+}
+
+.secundary-color {
+    background-color: #788DAA;
+}
+
+.menu {
+    border: 0px solid #0E1B2B;
+    color: #0E1B2B;
+    width: 70%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-container {
+    padding: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-list {
+    list-style-type: none
+  }
+*/
+/*Fin footer*/
+footer {
+  background-color: #788DAA;
+}
+footer ul {
+  border: 0px solid #0E1B2B;
+  color: #0E1B2B;
+  width: 70%;
+  font-family: "Montserrat Alternates", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+footer ul li {
+  color: #E0E1DC;
+}
+
+/*Header*/
+/*
+.logo {
+  width: 25%;
+  height: auto;
+}
+
+
+
+
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(120, 141, 170, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(120, 141, 170);
+} 
+
+.button-icon {
+  transition: 0.3s;
+}
+
+.button-icon:hover {
+  transform: translate(20px, 0px)
+}
+
+*/
+/*Fin de Header*/
+header nav .navbar-brand {
+  transition: 0.3s;
+}
+header nav .navbar-brand:hover {
+  transform: translate(20px, 0px);
+}
+header nav button {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(120, 141, 170, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  border-color: rgb(120, 141, 170);
+}
+header nav div ul li a span {
+  color: #E0E1DC;
+}
+
+/*Index*/
+/*
+.imagen-principal {
+  width: 60%;
+}
+
+
+.container-main {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+  background-color: #788DAA;
+}
+*/
+/*Fin index*/
+section {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+  background-color: #788DAA;
+}
+section div div div img {
+  width: 20%;
+}
+
+/*Experiencia*/
+/*
+.boxinline {
+    background-color: rgb(120, 141, 170);
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 4em;
+}
+
+.img-fluid-experiencia {
+    min-height: 500px;
+    min-width: 363px;
+}
+*/
+/*Fin de Experiencia*/
+section .boxinline {
+  background-color: rgb(120, 141, 170);
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 4em;
+}
+section .boxinline div div .img-fluid-experiencia {
+  min-height: 500px;
+  min-width: 363px;
+}
+
+/*Proyectos*/
+/*
+
+
+.project-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project {
+  font-family: 'Montserrat Alternates', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.image-fadeIn {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.container-projects {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #788DAA;
+}
+*/
+/*Fin Proyectos*/
+section div {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #788DAA;
+}
+section div div img {
+  animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
