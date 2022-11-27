@@ -157,6 +157,12 @@ section {
 section div div div img {
   width: 20%;
 }
+section div div div h1 {
+  color: #E0E1DC;
+}
+section div div div p {
+  color: #E0E1DC;
+}
 
 /*Experiencia*/
 /*
@@ -228,7 +234,7 @@ section div {
   align-items: center;
   background-color: #788DAA;
 }
-section div div img {
+section div div a img {
   animation: fadeIn 3s;
 }
 @keyframes fadeIn {
@@ -238,6 +244,12 @@ section div div img {
   100% {
     opacity: 1;
   }
+}
+section div div h2 {
+  color: #E0E1DC;
+}
+section div div p {
+  color: #E0E1DC;
 }
 
 /*# sourceMappingURL=style.css.map */
