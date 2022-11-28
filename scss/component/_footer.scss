@@ -30,15 +30,15 @@
 /*Fin footer*/
 
 footer {
-    background-color: #788DAA;
-
+    background-color: #0E1B2B;
+    .container {
+        align-items: center;
     ul {
         border: 0px solid #0E1B2B;
         color: #0E1B2B;
         width: 70%;
         font-family: 'Montserrat Alternates', sans-serif;
-        display: flex;
-        justify-content: space-around;
+        
 
         list-style-type: none;
 
@@ -46,5 +46,6 @@ footer {
             color: #E0E1DC;
         }
     }
+}
 
 }

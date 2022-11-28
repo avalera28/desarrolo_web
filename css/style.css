@@ -33,12 +33,20 @@
 section {
   background-color: #E0E1DC;
 }
-section div .container-contacto {
+section .container-contacto {
   display: flex;
   padding: 20px;
   margin-top: 100px;
   flex-direction: column;
   align-items: center;
+}
+section .container-contacto div h1 {
+  color: #E0E1DC;
+}
+section .container-contacto div {
+  color: #E0E1DC;
+}
+section .container-contacto div div div button {
   background-color: #788DAA;
 }
 
@@ -73,18 +81,19 @@ section div .container-contacto {
 */
 /*Fin footer*/
 footer {
-  background-color: #788DAA;
+  background-color: #0E1B2B;
 }
-footer ul {
+footer .container {
+  align-items: center;
+}
+footer .container ul {
   border: 0px solid #0E1B2B;
   color: #0E1B2B;
   width: 70%;
   font-family: "Montserrat Alternates", sans-serif;
-  display: flex;
-  justify-content: space-around;
   list-style-type: none;
 }
-footer ul li {
+footer .container ul li {
   color: #E0E1DC;
 }
 
@@ -182,14 +191,13 @@ section div div div p {
 */
 /*Fin de Experiencia*/
 section .boxinline {
-  background-color: rgb(120, 141, 170);
   display: inline-block;
   padding-top: 10px;
   padding-right: 30px;
   padding-bottom: 40px;
   padding-left: 4em;
 }
-section .boxinline div div .img-fluid-experiencia {
+section .boxinline .img-fluid-experiencia {
   min-height: 500px;
   min-width: 363px;
 }
@@ -232,10 +240,10 @@ section div {
   padding: 20px;
   flex-direction: column;
   align-items: center;
-  background-color: #788DAA;
 }
 section div div a img {
   animation: fadeIn 3s;
+  padding: 20px;
 }
 @keyframes fadeIn {
   0% {
@@ -249,6 +257,19 @@ section div div h2 {
   color: #E0E1DC;
 }
 section div div p {
+  color: #E0E1DC;
+}
+
+section {
+  background-color: #0E1B2B;
+}
+section div .container-proceso div img {
+  width: 20%;
+}
+section div .container-proceso div ul li span {
+  color: #E0E1DC;
+}
+section div .container-proceso div ul li p {
   color: #E0E1DC;
 }
 

@@ -41,11 +41,11 @@
         padding: 20px;
         flex-direction: column;
         align-items: center;
-        background-color: #788DAA;
         div {
           a{
             img {
                 animation: fadeIn 3s;
+                padding: 20px;
                 @keyframes fadeIn {
                     0% { opacity: 0; }
                     100% { opacity: 1; }
